@@ -16,7 +16,7 @@ public partial class GodotParadiseProjectileComponent : Node
 	[Signal]
 	public delegate void BouncedEventHandler(Vector2 position);
 	[Signal]
-	public delegate void PenetratedEventHandler(int ReaminingPenetrations);
+	public delegate void PenetratedEventHandler(int RemainingPenetrations);
 	[Signal]
 	public delegate void PenetrationCompleteEventHandler();
 
