@@ -51,6 +51,8 @@ Imagine placing this component in any scene representing a projectile in your vi
 You can download this plugin from the official [Godot asset library](https://godotengine.org/asset-library/asset/2039) using the AssetLib tab in your godot editor. Once installed, you're ready to get started
 ##  Manual 
 To manually install the plugin, create an **"addons"** folder at the root of your Godot project and then download the contents from the **"addons"** folder of this repository
+## GDScript version
+This plugin has also been written in GDScript and you can find it on [ProjectileComponent](https://github.com/GodotParadise/ProjectileComponent)
 
 # Getting started
 This node functions like the others, serving as a child of another node. In this case, it is not restricted to only `CharacterBody2D`, as bullets are typically `Area2D` objects.

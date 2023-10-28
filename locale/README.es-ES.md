@@ -19,6 +19,7 @@ Imagine que coloca este componente en cualquier escena que represente un proyect
 - [✨Instalacion](#instalacion)
 	- [Automatica (Recomendada)](#automatica-recomendada)
 	- [Manual](#manual)
+	- [GDScript](#gdscript)
 - [Como empezar](#como-empezar)
 - [Parámetros exportados](#parámetros-exportados)
 	- [Speed](#speed)
@@ -49,6 +50,8 @@ Imagine que coloca este componente en cualquier escena que represente un proyect
 Puedes descargar este plugin desde la [Godot asset library](https://godotengine.org/asset-library/asset/2039) oficial usando la pestaña AssetLib de tu editor Godot. Una vez instalado, estás listo para empezar
 ## Manual 
 Para instalar manualmente el plugin, crea una carpeta **"addons"** en la raíz de tu proyecto Godot y luego descarga el contenido de la carpeta **"addons"** de este repositorio
+## GDScript
+Este plugin también ha sido escrito en GDScript y puedes encontrarlo en [ProjectileComponent](https://github.com/GodotParadise/ProjectileComponent)
 
 # Como empezar
 Este nodo funciona como los demás, sirviendo como hijo de otro nodo. En este caso, no está restringido sólo a `CharacterBody2D`, ya que las balas son típicamente nodos `Area2D`.
