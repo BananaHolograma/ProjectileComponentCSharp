@@ -10,17 +10,14 @@ config_version=5
 
 [application]
 
-config/name="GodotParadiseHealthComponent"
-config/description="Effortlessly simulate health and damage for entities within your video game.
-
-This component handles all aspects related to taking damage and managing health on the parent node. While typically added to a `CharacterBody2D`, there are no limitations preventing its use with a `StaticRigidBody2D`, allowing you to imbue life into objects like trees or other in-game elements.
-"
+config/name="GodotParadiseProjectileComponent"
+config/description="Imagine placing this component in any scene representing a projectile in your video game, and it is ready for action. It provides common functionalities for standard projectiles now in C#"
 config/features=PackedStringArray("4.1", "C#", "GL Compatibility")
 config/icon="res://icon.svg"
 
 [dotnet]
 
-project/assembly_name="GodotParadiseHealthComponent"
+project/assembly_name="GodotParadiseProjectileComponent"
 
 [rendering]
 
